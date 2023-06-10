@@ -37,19 +37,29 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">DevFolio</a></h1>
+      <h1 class="logo"><a href="index.html">土土</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">首頁</a></li>
-          <li><a class="nav-link scrollto" href="#about">關於我</a></li>
-          <li><a class="nav-link scrollto" href="#services">我的技能</a></li>
-          <li><a class="nav-link scrollto " href="#work">我的生活日記</a></li>
-          <li><a class="nav-link scrollto " href="#blog">我的形象照</a></li>
-          <li><a class="nav-link scrollto" href="#contact">聯絡我們</a></li>
-        </ul>
+          <li><a class="nav-link scrollto" href="index.html">首頁</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">關於我</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services">我的技能</a></li>
+          <li class="dropdown">
+            <a class="nav-link scrollto active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">我的生活日記</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="portfolio-details-1.html">頭上多了啥</a></li>
+              <li><a class="dropdown-item" href="portfolio-details-2.html">十八般武藝</a></li>
+              <li><a class="dropdown-item" href="portfolio-details-3.html">一覺到天亮</a></li>
+              <li><a class="dropdown-item" href="portfolio-details-4.html">兔年行大運</a></li>
+              <li><a class="dropdown-item" href="portfolio-details-5.html">懶骨頭日記</a></li>
+              <li><a class="dropdown-item" href="portfolio-details-6.html">丑照大合集</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="index.html#blog">我的形象照</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">聯絡我們</a></li>
+          </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
@@ -61,13 +71,19 @@
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h2 class="hero-title mb-4">Portfolio Details</h2>
+          <h2 class="hero-title mb-4">懶骨頭日記</h2>
           <ol class="breadcrumb d-flex justify-content-center">
             <li class="breadcrumb-item">
-              <a href="#">Home</a>
+              <a href="index.html">首頁</a>
             </li>
-            <li class="breadcrumb-item active">Portfolio Details</li>
+            <li class="breadcrumb-item active">我的生活日記</li>
           </ol>
+          <!-- 新增的按鈕 -->
+          <div class="portfolio-buttons text-center">
+          <a href="portfolio-details-4.html" class="btn btn-primary">上一篇</a>
+          <a href="portfolio-details-6.html" class="btn btn-primary">下一篇</a>
+        </div>
+        <!-- 新增的按鈕 -->
         </div>
       </div>
     </div>
@@ -86,15 +102,19 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio-details-1.jpg" alt="">
+                  <img src="assets/img/portfolio-details-5-1.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio-details-2.jpg" alt="">
+                  <img src="assets/img/portfolio-details-5-2.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio-details-3.jpg" alt="">
+                  <img src="assets/img/portfolio-details-5-3.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio-details-5-4.jpg" alt="">
                 </div>
 
               </div>
