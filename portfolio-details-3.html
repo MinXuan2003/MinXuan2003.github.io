@@ -71,6 +71,23 @@
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
+          <style>
+              .hero-title {
+                position: relative;
+                animation: slideInTop 1s ease-in-out;
+              }
+
+              @keyframes slideInTop {
+                0% {
+                  transform: translateY(-100%);
+                  opacity: 0;
+                }
+                100% {
+                  transform: translateY(0);
+                  opacity: 1;
+                }
+              }
+            </style>
           <h2 class="hero-title mb-4">一覺到天亮</h2>
           <ol class="breadcrumb d-flex justify-content-center">
             <li class="breadcrumb-item">
@@ -124,19 +141,19 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
+              <h3>土土觀察日記</h3>
+                <ul>
+                  <li><strong>今日分類</strong> : 頹廢狗</li>
+                  <li><strong>今日心情</strong> : 放棄營業</li>
+                  <li><strong>案發日期</strong> : 2023.2.7</li>
+                  <li><strong>天氣情況</strong> : 陰</li>
+                </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
+              <h2>案發細節</h2>
+              <h5 style="line-height: 1.75;">
+              俗話說的好：「休息，是為了走更長遠的路」，所以身為一隻有遠見的狗狗，適時的透過睡眠補充體力，絕對是必不可少的。你說有人匿名舉報我一整天都在睡覺！？那怎麼可能呢，呵呵
+              </h5>
             </div>
           </div>
 
